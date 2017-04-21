@@ -1,0 +1,145 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {font-size: 100%; }
+
+
+
+@font-face {
+	font-family: Code_Light;
+	src: url(../fonts/Code_Light.otf)
+}
+
+
+
+/*............header...........*/
+
+.background{
+	background: #5879e4;
+}
+.menu, .vel--podmenu{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.menu{
+	text-align: center;
+}
+
+.menu-a{
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Roboto:500', sans-serif;
+	padding: 20px 0px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-a:hover{
+	background: #718de8;
+}
+
+
+.content{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+.vel--podmenu-items{
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	display: block;
+
+
+}
+
+
+.vel--podmenu li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.vel--podmenu ul li a{
+	text-decoration: none;
+	color: #555555;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+}
+.vel--podmenu ul li img{
+	margin: 0 4px;
+}
+
+.vel--podmenu-items-active {
+	border-bottom: 1px solid #333333;
+}
+
+.vel--podmenu{
+	background: #e1e1e1;
+	border: 1px solid #5879e4 ;
+	border-top: 0;
+	line-height: 1.5;
+	position: absolute;
+	width: 100%;
+		top: 61px;
+	text-align: left;
+
+}
+
+.vel--podmenu-col{
+	padding: 10px;
+}
+
+.button{
+	display: none;
+}
+
+
+@media only screen and (max-width: 48em) {
+.vel--podmenu{
+	position: relative;
+	top: 0;
+}
+
+.background{
+	background: white;
+	
+}
+.menu-a{
+	color: #333333;
+	display: block;
+	text-align: left;
+	border-bottom: 1px solid gray;
+	padding-left: 10px;
+}
+.vel-pod-podmenu{
+	padding-left: 10px;
+}
+
+.menu-a:hover{
+	color: #718de8;
+	background: white;
+}
+
+.button{
+	display: block;
+	background: #718de8;
+}
+
+.button a {
+color: white;	
+}
+.button a:hover{
+	background: #718de8;
+	color: white;
+} 
+
+.menu{
+	display: none;
+}
+
+}
